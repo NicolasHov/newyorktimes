@@ -1,0 +1,26 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+  color: #333;
+  background-color: #fff;
+  height: 2222px;
+}
+header {
+
+  background-color: lightpink;
+  height: 49px;
+  width: 100%;
+  top: 0;
+  left : 0;
+  position: fixed;
+  display : flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: sticky
+}
+header-logo {
+  text-align : center;
+}
